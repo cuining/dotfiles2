@@ -25,7 +25,7 @@ export ME='x0'
 export X_UID=10806
 export PORT=60806
 export HOSTNAME='thirteen'
-export ARCH='x86' # arm, x86
+export ARCH='arm64' # arm, x86
 # script vars
 MYHOME="/home/$ME"
 ASME="sudo -u $ME"
