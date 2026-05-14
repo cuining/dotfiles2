@@ -17,10 +17,6 @@ alias ec='nvim --cmd ":lua vim.g.noplugins=1"'
 alias fuck='sudo $(fc -ln -1)'
 alias g="git"
 alias y="yank"
-alias k="kubectl"
-alias kx="kubectx"
-alias tgp="terragrunt plan"
-alias tga="terragrunt apply"
 alias syncmusic="rsync -av --progress \
   --include='*/' \
   --include='*.mp3' \
@@ -57,7 +53,6 @@ if (( $+commands[git] )); then
 	alias ggg="git graphgpg"
 	alias gm="git merge"
 	alias gp="git push"
-	alias gpr="gh pr create"
 	alias gr="git rebase -i"
 	alias gs="git status -sb"
 	alias gt="git tag"
@@ -72,8 +67,6 @@ alias cp="cp -r"
 alias scp="scp -r"
 alias vimdiff="nvim -d --cmd ':lua vim.g.noplugins=1'"
 alias apt="sudo apt"
-alias doc="sudo docker"
-alias docker="sudo docker"
 alias systemctl="sudo systemctl"
 alias proxychains="proxychains -q"
 alias ag="ag --color --color-line-number '0;35' --color-match '46;30' --color-path '4;36'"
